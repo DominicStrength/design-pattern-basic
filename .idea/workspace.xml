@@ -1,16 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cc8144f3-044c-47fb-995b-357011e610c2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/design/src/IteratorPattern/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/src/IteratorPattern/BookShelf.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/src/IteratorPattern/BookShelfIterator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/design-pattern-basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/design-pattern-basic.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/design/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/part01_iterator/dong_min/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part01_iterator/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/part01_iterator/dong_min/BookShelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part01_iterator/BookShelf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/part01_iterator/dong_min/BookShelfIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part01_iterator/BookShelfIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/part01_iterator/dong_min/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part01_iterator/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/part01_iterator/dong_min/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part01_iterator/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/part02_adapter/dong_min/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part02_adapter/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/part02_adapter/dong_min/example/delegate/Banner.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part02_adapter/example/delegate/Banner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/part02_adapter/dong_min/example/delegate/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part02_adapter/example/delegate/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/part02_adapter/dong_min/example/delegate/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part02_adapter/example/delegate/Print.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/part02_adapter/dong_min/example/delegate/PrintBanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part02_adapter/example/delegate/PrintBanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/part02_adapter/dong_min/example/inherit/Banner.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part02_adapter/example/inherit/Banner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/part02_adapter/dong_min/example/inherit/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part02_adapter/example/inherit/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/part02_adapter/dong_min/example/inherit/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part02_adapter/example/inherit/Print.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/part02_adapter/dong_min/example/inherit/PrintBanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part02_adapter/example/inherit/PrintBanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/part02_adapter/dong_min/practice/FileIOTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part02_adapter/practice/FileIOTarget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/part02_adapter/dong_min/practice/FilePropertiesAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part02_adapter/practice/FilePropertiesAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/part02_adapter/dong_min/practice/MainClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part02_adapter/practice/MainClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/part02_adapter/dong_min/practice/Q&amp;A" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part02_adapter/practice/Q&amp;A" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/part02_adapter/dong_min/practice/file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part02_adapter/practice/file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/part02_adapter/dong_min/practice/newFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part02_adapter/practice/newFile.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,7 +54,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/designPattern/design-pattern-basic",
+    "last_opened_file_path": "C:/Users/kdm99/workspaces/design-pattern-basic",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.scopes",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -43,10 +78,17 @@
       <workItem from="1673527875265" duration="77000" />
       <workItem from="1673773462411" duration="28000" />
       <workItem from="1673773569551" duration="186000" />
+      <workItem from="1674208073286" duration="1098000" />
+      <workItem from="1674210366346" duration="81000" />
+      <workItem from="1674210458853" duration="1257000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package ch01_familiarize_with_design_patterns.part02_adapter.dong_min.example.delegate;
+package part02_adapter.example.delegate;
 
 public class Main {
     public static void main(String[] args) {

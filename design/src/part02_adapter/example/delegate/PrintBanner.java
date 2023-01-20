@@ -1,4 +1,4 @@
-package ch01_familiarize_with_design_patterns.part02_adapter.dong_min.example.delegate;
+package part02_adapter.example.delegate;
 
 /**
  * Adapter(적응자) : Adaptee(Banner)의 메소드를 사용해서 어떻게든 Target(Client)을 만족시키는 것

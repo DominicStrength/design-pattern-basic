@@ -1,4 +1,4 @@
-package ch01_familiarize_with_design_patterns.part02_adapter.dong_min.example.inherit;
+package part02_adapter.example.inherit;
 
 /**
  * 변환 장치

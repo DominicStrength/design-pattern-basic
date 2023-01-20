@@ -1,8 +1,7 @@
-package ch01_familiarize_with_design_patterns.part02_adapter.dong_min.example.delegate;
+package part02_adapter.example.inherit;
 
 /**
  * 최종 결과물 제공
- * Adaptee(적응 대상자) : 이미 준비된 메소드를 가지는 역할
  */
 public class Banner {
 

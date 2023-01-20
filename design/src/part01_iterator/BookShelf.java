@@ -1,4 +1,4 @@
-package ch01_familiarize_with_design_patterns.part01_iterator.dong_min;
+package part01_iterator;
 
 import java.util.ArrayList;
 import java.util.Iterator;

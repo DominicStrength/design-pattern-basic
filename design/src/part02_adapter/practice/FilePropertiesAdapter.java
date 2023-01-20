@@ -1,4 +1,4 @@
-package ch01_familiarize_with_design_patterns.part02_adapter.dong_min.practice;
+package part02_adapter.practice;
 
 import java.io.*;
 import java.util.Properties;
