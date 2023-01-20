@@ -1,0 +1,4 @@
+Q) java.io.InputStream 클래스에서는 Template Method 패턴을 사용합니다.
+   JDK 의 API 레퍼런스를 읽고, java.io.InputStream 의 하위 클래스에서 구현해야 하는 메소드는 무엇인지 조사하세요.
+
+   read(), close()
