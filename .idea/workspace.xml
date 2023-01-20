@@ -5,43 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc8144f3-044c-47fb-995b-357011e610c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/part03_template_method/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/part03_template_method/example/AbstractDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/part03_template_method/example/CharDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/part03_template_method/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/part03_template_method/example/StringDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/part03_template_method/practice/QnA_1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/part03_template_method/practice/QnA_2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/part03_template_method/practice/QnA_3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part01_iterator/Book.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part01_iterator/BookShelf.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part01_iterator/BookShelfIterator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part01_iterator/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part01_iterator/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part02_adapter/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part02_adapter/example/delegate/Banner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part02_adapter/example/delegate/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part02_adapter/example/delegate/Print.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part02_adapter/example/delegate/PrintBanner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part02_adapter/example/inherit/Banner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part02_adapter/example/inherit/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part02_adapter/example/inherit/Print.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part02_adapter/example/inherit/PrintBanner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part02_adapter/practice/FileIOTarget.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part02_adapter/practice/FilePropertiesAdapter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part02_adapter/practice/MainClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part02_adapter/practice/Q&amp;A" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part02_adapter/practice/file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part02_adapter/practice/newFile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part03_template_method/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part03_template_method/example/AbstractDisplay.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part03_template_method/example/CharDisplay.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part03_template_method/example/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part03_template_method/example/StringDisplay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/out/production/design/IteratorPattern/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/out/production/design/IteratorPattern/BookShelf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/out/production/design/IteratorPattern/BookShelfIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/out/production/design/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +83,7 @@
       <workItem from="1673773569551" duration="186000" />
       <workItem from="1674208073286" duration="1098000" />
       <workItem from="1674210366346" duration="81000" />
-      <workItem from="1674210458853" duration="9201000" />
+      <workItem from="1674210458853" duration="9319000" />
     </task>
     <servers />
   </component>
