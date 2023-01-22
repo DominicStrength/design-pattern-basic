@@ -10,6 +10,7 @@ import part04_factory.example.framework.Product;
  * 3. registerProduct 는 만들어진 제품을 등록한다.
  */
 public class IDCardFactory extends Factory {
+
     @Override
     protected Product createProduct(String owner) {
         return new IDCard(owner);

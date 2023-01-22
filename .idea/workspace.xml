@@ -5,11 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc8144f3-044c-47fb-995b-357011e610c2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/design/src/part04_factory/diff/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/part04_factory/diff/design/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/part04_factory/diff/factory/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/part04_factory/diff/shape_list/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/part04_factory/diff/shape_list/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/part04_factory/diff/shape_list/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/part04_factory/quiz/문제" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/part04_factory/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part04_factory/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/design/src/part04_factory/example/framework/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part04_factory/example/framework/Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/src/part04_factory/example/framework/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part04_factory/example/framework/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/design/src/part04_factory/example/idcard/IDCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part04_factory/example/idcard/IDCard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/design/src/part04_factory/example/idcard/IDCardFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part04_factory/example/idcard/IDCardFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-pattern-basic/part04_factory/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part04_factory/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-pattern-basic/part04_factory/example/framework/Factory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part04_factory/example/framework/Factory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-pattern-basic/part04_factory/example/idcard/IDCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part04_factory/example/idcard/IDCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-pattern-basic/part04_factory/example/idcard/IDCardFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part04_factory/example/idcard/IDCardFactory.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +33,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -43,7 +55,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/kdm99/workspaces/design-pattern-basic/design/src/part04_factory",
+    "last_opened_file_path": "C:/Users/kdm99/workspaces/design-pattern-basic",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,7 +64,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -62,6 +74,40 @@
       <recent name="C:\Users\kdm99\workspaces\design-pattern-basic\design\src\part03_template_method\practice" />
       <recent name="C:\Users\kdm99\workspaces\design-pattern-basic\design\src\part03_template_method" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.part04_factory.diff.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part04_factory.example.Main" />
+      <module name="design-pattern-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part04_factory.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="part04_factory.diff.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part04_factory.diff.Main" />
+      <module name="design-pattern-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part04_factory.diff.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.part04_factory.diff.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -76,7 +122,9 @@
       <workItem from="1673773569551" duration="186000" />
       <workItem from="1674208073286" duration="1098000" />
       <workItem from="1674210366346" duration="81000" />
-      <workItem from="1674210458853" duration="15248000" />
+      <workItem from="1674210458853" duration="18842000" />
+      <workItem from="1674351158854" duration="177000" />
+      <workItem from="1674351347967" duration="7166000" />
     </task>
     <servers />
   </component>
