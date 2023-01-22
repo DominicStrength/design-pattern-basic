@@ -24,7 +24,7 @@ public class IDCard extends Product {
         corr = new HashMap<>();
         corr.put(this.owner, this.serialNumber);
 
-        System.out.println(owner + "의 카드를 만듭니다. \n 일련번호는 " + corr.get(owner) + " 입니다.");
+        System.out.println(owner + "의 카드를 만듭니다. 일련번호는 " + corr.get(owner) + " 입니다.");
     }
 
     public String getOwner() {
@@ -33,7 +33,7 @@ public class IDCard extends Product {
 
     @Override
     public void use() {
-        System.out.println(this + "을 사용합니다.");
+        System.out.println(this + "을 사용합니다. 일련번호는 " + this.serialNumber + " 입니다.");
     }
 
     @Override
