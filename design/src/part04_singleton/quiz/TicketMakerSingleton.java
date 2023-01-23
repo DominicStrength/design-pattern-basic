@@ -2,13 +2,21 @@ package part04_singleton.quiz;
 
 public class TicketMakerSingleton {
 
-    private static final int ticket = 1000;
+    private static TicketMakerSingleton INSTANCE = null;
+    private static int ticket = 1000;
 
-    public TicketMakerSingleton() {
-        System.out.println("티켓이 생성되었습니다.");
+    public int getNextTicketNumber() {
+        return this.ticket;
     }
 
-    public static int getNextTicketNumber() {
-        return ticket;
+    // 외부에서 인스턴스화 막음
+    private TicketMakerSingleton() {}
+
+    public static TicketMakerSingleton getInstance() {
+        if (INSTANCE == null) {
+            INSTANCE = new TicketMakerSingleton();
+            ticket++;
+        }
+        return INSTANCE;
     }
 }

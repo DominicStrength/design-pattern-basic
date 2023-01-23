@@ -1,4 +1,4 @@
-package part04_singleton.quiz.type;
+package part04_singleton.quiz.types;
 
 import java.io.Serializable;
 
@@ -7,8 +7,7 @@ public class SerializationSingleton implements Serializable {
     private static final SerializationSingleton INSTANCE = new SerializationSingleton();
     private int value;
 
-    private SerializationSingleton() {
-    }
+    private SerializationSingleton() {}
 
     public void setValue(int value) {
         this.value = value;
