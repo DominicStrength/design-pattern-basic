@@ -1,0 +1,16 @@
+문제 5-1
+Q) TicketMaker 클래스(리스트 5-3)는 getNextTicketNumber 메소드를 호출할 때마다 1000, 1001, 1002, ... 라는 수를 차례로 반환해서
+   티켓 번호나 일련번호를 생성하는 데 사용합니다. 이 TicketMaker 클래스는 현재 상태라면 인스턴스를 몇 개라도 만들 수 있습니다.
+   여기에 Singleton 패턴을 적용해 인스턴스가 하나만 만들어지도록 변경해 보세요.
+
+문제 5-2
+Q) 인스턴스 수가 3개로 제한되는 클래스 Triple 을 만드세요. 인스턴스에는 "ALPHA", "BETA", "GAMMA"라는 이름이 붙어 있고,
+   getInstance(String name)으로 name 이라는 이름을 가진 인스턴스를 얻을 수 있다고 가정합니다.
+
+문제 5-3
+Q) 어떤 사람이 Singleton 클래스를 리스트 5-4처럼 만들었습니다. 그러나 이 상태에서 getInstance 메소드가 여러 스레드에서 호출되면
+   Singleton 패턴이 되지 않습니다. 어째서일까요?
+
+A) 해당 싱글톤 방식은 Lazy 방식으로 singleton 이 null 임이 보장될 때 인스턴스를 생성하게된다.
+   하지만, Multi Thread 환경에서 1번 Thread 와 2번 Thread 가 모두 null 이라고 판단하여 인스턴스를 생성하게 되면
+   서로 다른 객체를 바라보게 된다.

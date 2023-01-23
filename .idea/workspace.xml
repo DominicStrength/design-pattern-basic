@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc8144f3-044c-47fb-995b-357011e610c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/design/src/part06_prototype/quiz/문제" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/part06_prototype/example/framework/CommonAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/part06_prototype/question/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/part06_prototype/question/MessageBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/part06_prototype/question/UnderlinePen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/part06_prototype/question/framework/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/part06_prototype/question/framework/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/part02_adapter/example/delegate/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part02_adapter/example/delegate/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/part04_factory/quiz/문제" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part04_factory/quiz/문제.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/part05_singleton/quiz/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part05_singleton/quiz/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/part06_prototype/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part06_prototype/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/part06_prototype/example/MessageBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part06_prototype/example/MessageBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/part06_prototype/example/UnderlinePen.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part06_prototype/example/UnderlinePen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/part06_prototype/quiz/문제" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part06_prototype/quiz/문제.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +45,6 @@
   </component>
   <component name="ProjectId" id="2KE7QikzunAFkSPqHFqA3lbuF4e" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
@@ -64,7 +75,7 @@
       <recent name="C:\Users\kdm99\workspaces\design-pattern-basic\design\src\part03_template_method" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.part06_prototype.example.Main">
+  <component name="RunManager" selected="Application.part06_prototype.question.Main">
     <configuration name="LazyInitialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="part05_singleton.quiz.types.LazyInitialization" />
       <module name="design-pattern-basic" />
@@ -91,19 +102,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="part05_singleton.example.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="part05_singleton.example.Main" />
-      <module name="design-pattern-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="part05_singleton.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="part05_singleton.quiz.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="part05_singleton.quiz.Main" />
       <module name="design-pattern-basic" />
@@ -122,7 +120,20 @@
       <module name="design-pattern-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="part06_prototype.example.*" />
+          <option name="PATTERN" value="part06_prototype.example.framework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="part06_prototype.question.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part06_prototype.question.Main" />
+      <module name="design-pattern-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part06_prototype.question.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.part06_prototype.question.Main" />
         <item itemvalue="Application.part06_prototype.example.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.part05_singleton.quiz.Main" />
         <item itemvalue="Application.LazyInitialization" />
-        <item itemvalue="Application.part05_singleton.example.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +167,7 @@
       <workItem from="1674210458853" duration="18842000" />
       <workItem from="1674351158854" duration="177000" />
       <workItem from="1674351347967" duration="32729000" />
-      <workItem from="1674436919767" duration="6208000" />
+      <workItem from="1674436919767" duration="15894000" />
     </task>
     <servers />
   </component>

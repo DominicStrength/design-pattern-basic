@@ -1,8 +1,9 @@
 package part06_prototype.example;
 
+import part06_prototype.example.framework.CommonAbstract;
 import part06_prototype.example.framework.Product;
 
-public class UnderlinePen implements Product {
+public class UnderlinePen extends CommonAbstract implements Product {
 
     private char ulchar;
 
@@ -20,14 +21,14 @@ public class UnderlinePen implements Product {
         System.out.println();
     }
 
-    @Override
-    public Product createCopy() {
-        Product p = null;
-        try {
-            p = (Product) clone();
-        } catch (CloneNotSupportedException e) {
-            e.printStackTrace();
-        }
-        return p;
-    }
+    // @Override
+    // public Product createCopy() {
+    //     Product p = null;
+    //     try {
+    //         p = (Product) clone();
+    //     } catch (CloneNotSupportedException e) {
+    //         e.printStackTrace();
+    //     }
+    //     return p;
+    // }
 }

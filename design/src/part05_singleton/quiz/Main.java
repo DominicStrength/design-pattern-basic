@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         /**
-         * 문제.txt 5-1
+         * 문제.txt.txt.txt 5-1
          */
         // TicketMakerSingleton ticketMakerSingleton = TicketMakerSingleton.getInstance();
         // for (int i = 0; i < 10; i++) {
@@ -12,7 +12,7 @@ public class Main {
         // }
 
         /**
-         * 문제.txt 5-2
+         * 문제.txt.txt.txt 5-2
          * Enum 은 Reflection 문제점도 해결해 줄 수 있다.
          */
         Triple triple = Triple.getInstance("ALPHA");

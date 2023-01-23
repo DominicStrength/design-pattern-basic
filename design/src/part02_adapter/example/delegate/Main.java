@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         /**
-         * 문제.txt 2-1
+         * 문제.txt.txt.txt 2-1
          */
         Print print = new PrintBanner("Hello");
         print.printWeak();
