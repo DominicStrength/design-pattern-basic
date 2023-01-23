@@ -1,4 +1,4 @@
-package part06_prototype.example;
+package part06_prototype.example.framework;
 
 /**
  * java.lang.Cloneable 인터페이스를 상속한 Product 인터페이스는 복제를 가능하게 합니다.

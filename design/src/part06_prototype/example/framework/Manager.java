@@ -1,4 +1,4 @@
-package part06_prototype.example;
+package part06_prototype.example.framework;
 
 import java.util.HashMap;
 import java.util.Map;

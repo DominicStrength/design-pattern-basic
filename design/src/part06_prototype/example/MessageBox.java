@@ -1,5 +1,7 @@
 package part06_prototype.example;
 
+import part06_prototype.example.framework.Product;
+
 public class MessageBox implements Product {
 
     private char decochar;

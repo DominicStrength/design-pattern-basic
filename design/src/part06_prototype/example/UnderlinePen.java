@@ -1,5 +1,7 @@
 package part06_prototype.example;
 
+import part06_prototype.example.framework.Product;
+
 public class UnderlinePen implements Product {
 
     private char ulchar;

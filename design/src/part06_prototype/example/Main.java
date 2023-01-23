@@ -1,5 +1,8 @@
 package part06_prototype.example;
 
+import part06_prototype.example.framework.Manager;
+import part06_prototype.example.framework.Product;
+
 public class Main {
     public static void main(String[] args) {
         // 준비
