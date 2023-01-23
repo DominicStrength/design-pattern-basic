@@ -30,3 +30,48 @@ Q) 예제 프로그램에서는 Java 의 clone 으로 인스턴스 복사를 구
    복사 생성자를 이용해서 인스턴스를 복사하도록 예제 프로그램을 다시 작성하세요.
 
 A)
+    /** UnderlinePen.class */
+    public UnderlinePen(char ulchar) {
+        this.ulchar = ulchar;
+    }
+    // 복사 생성자
+    public UnderlinePen(UnderlinePen prototype) {
+        this.ulchar = prototype.ulchar;
+    }
+
+    /** MessageBox.class */
+    public MessageBox(char decochar) {
+        this.decochar = decochar;
+    }
+    // 복사 생성자
+    public MessageBox(MessageBox prototype) {
+        this.decochar = prototype.decochar;
+    }
+
+    /** Main.class */
+    public class Main {
+        public static void main(String[] args) {
+            // 준비
+            Manager manager = new Manager();
+
+            // 복사 생성자 호출
+            UnderlinePen upen = new UnderlinePen(new UnderlinePen('-'));
+            MessageBox mbox = new MessageBox(new MessageBox('*'));
+            MessageBox sbox = new MessageBox(new MessageBox('/'));
+
+            // 등록
+            manager.register("string message", upen);
+            manager.register("warning box", mbox);
+            manager.register("slash box", sbox);
+
+            // 생성과 사용
+            Product p1 = manager.create("string message");
+            p1.use("Hello, world.");
+
+            Product p2 = manager.create("warning box");
+            p2.use("Hello, world.");
+
+            Product p3 = manager.create("slash box");
+            p3.use("Hello, world.");
+        }
+    }
