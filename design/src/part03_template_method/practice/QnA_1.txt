@@ -1,0 +1,24 @@
+문제 3-1
+Q) java.io.InputStream 클래스에서는 Template Method 패턴을 사용합니다.
+   JDK 의 API 레퍼런스를 읽고, java.io.InputStream 의 하위 클래스에서 구현해야 하는 메소드는 무엇인지 조사하세요.
+
+A) read()
+
+문제 3-2
+Q) 예제 프로그램의 AbstractDisplay 클래스(리스트 3-1)의 display 메소드는 다음과 같이 구현되어 있습니다.
+
+public final void display() {
+    ...
+}
+
+여기에서 final은 무엇을 나타내고 있을까요?
+
+A) final 메소드는 오버라이딩을 금지할 때 사용된다.
+   AbstractDisplay 클래스를 상속받더라도 오버라이드를 이용한 재정의가 불가능하다.
+   오버라이딩을 시도하면 컴파일 에러가 발생한다.
+
+문제 3-3
+Q) 예제 프로그램에서 open, print, close 메소드를 상속 관계 및 같은 패키지에 있는 클래스에서만 호출할 수 있게 하고,
+   관계없는 다른 클래스에서는 호출할 수 없게 하고 싶습니다. 어떻게 해야 할까요?
+
+A) 접근제한자를 'public'에서 'protected'로 변경한다.

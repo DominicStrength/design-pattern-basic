@@ -13,12 +13,18 @@ package part03_template_method.example;
  * public, protected, private 접근 제어자를 모두 사용 할 수 있다.
  */
 public abstract class AbstractDisplay {
-    // open, print, close는 하위 클래스에 구현을 맡기는 추상 메소드
+
+    /**
+     * 하위 클래스에 구현을 맡기는 추상 메소드
+     */
     public abstract void open();
     public abstract void print();
     public abstract void close();
 
-    // display는 AbstractDisplay에서 구현하는 메소드
+    /**
+     * display() 는 XXXDisplay 클래스들의 공통적인 기능을 하는 메소드
+     * 상속 시 오버라이딩 할 필요가 없으므로 final 로 막아준다.
+     */
     public final void display() {
         open();
         for (int i = 0; i < 5; i++) {

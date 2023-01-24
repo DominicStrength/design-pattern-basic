@@ -1,5 +1,8 @@
 package part03_template_method.example;
 
+/**
+ * 상위 클래스의 기능(open, print, close)을 구체적으로 구현하는 클래스
+ */
 public class CharDisplay extends AbstractDisplay {
 
     private char ch;
