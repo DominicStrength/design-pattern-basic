@@ -2,7 +2,7 @@
 Q) java.io.InputStream 클래스에서는 Template Method 패턴을 사용합니다.
    JDK 의 API 레퍼런스를 읽고, java.io.InputStream 의 하위 클래스에서 구현해야 하는 메소드는 무엇인지 조사하세요.
 
-A) read(), close()
+A) read()
 
 문제 3-2
 Q) 예제 프로그램의 AbstractDisplay 클래스(리스트 3-1)의 display 메소드는 다음과 같이 구현되어 있습니다.
@@ -22,3 +22,9 @@ Q) 예제 프로그램에서 open, print, close 메소드를 상속 관계 및 �
    관계없는 다른 클래스에서는 호출할 수 없게 하고 싶습니다. 어떻게 해야 할까요?
 
 A) 접근제한자를 'public'에서 'protected'로 변경한다.
+
+문제 3-4
+Q) Java의 인터페이스는 추상 클래스와 매우 비슷합니다. Java 8 이후에든 인터페이스의 메소드를 default 키워드로 선언해서 디폴트 구현을 정의할 수 있습니다.<br>
+   예제 프로그램의 AbstractDisplay 클래스(리스트 3-1)를 인터페이스로 변경하세요.
+
+

@@ -5,23 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc8144f3-044c-47fb-995b-357011e610c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/design/src/part03_template_method/practice/QnA_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/part03_template_method/default_test/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/part03_template_method/default_test/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/part03_template_method/default_test/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/design/src/part03_template_method/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part03_template_method/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/src/part03_template_method/example/AbstractDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part03_template_method/example/AbstractDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/src/part03_template_method/example/CharDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part03_template_method/example/CharDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/src/part03_template_method/example/StringDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part03_template_method/example/StringDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/src/part03_template_method/practice/QnA_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/src/part03_template_method/practice/QnA_2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/src/part03_template_method/practice/QnA_3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/part03_template_method/practice/QnA_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/part03_template_method/practice/QnA_1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/design-pattern-basic/part03_template_method/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part03_template_method/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern-basic/part03_template_method/example/AbstractDisplay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part03_template_method/example/AbstractDisplay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern-basic/part03_template_method/example/CharDisplay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part03_template_method/example/CharDisplay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern-basic/part03_template_method/example/StringDisplay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part03_template_method/example/StringDisplay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern-basic/part03_template_method/practice/QnA_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern-basic/part03_template_method/practice/QnA_2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern-basic/part03_template_method/practice/QnA_3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern-basic/part06_prototype/quiz/문제.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part06_prototype/quiz/문제.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-pattern-basic/part03_template_method/practice/QnA_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-pattern-basic/part03_template_method/practice/QnA_1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +69,7 @@
       <recent name="C:\Users\kdm99\workspaces\design-pattern-basic\design\src\part03_template_method" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.part03_template_method.example.Main">
+  <component name="RunManager" selected="Application.part03_template_method.default_test.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="part04_factory.example.Main" />
       <module name="design-pattern-basic" />
@@ -92,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="part03_template_method.example.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="part03_template_method.example.Main" />
+    <configuration name="part03_template_method.default_test.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part03_template_method.default_test.Main" />
       <module name="design-pattern-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="part03_template_method.example.*" />
+          <option name="PATTERN" value="part03_template_method.default_test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="part05_singleton.quiz.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="part05_singleton.quiz.Main" />
+    <configuration name="part03_template_method.example.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part03_template_method.example.Main" />
       <module name="design-pattern-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="part05_singleton.quiz.types.*" />
+          <option name="PATTERN" value="part03_template_method.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.part03_template_method.default_test.Main" />
         <item itemvalue="Application.part03_template_method.example.Main" />
         <item itemvalue="Application.part06_prototype.question.Main" />
         <item itemvalue="Application.part06_prototype.example.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.part05_singleton.quiz.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +164,7 @@
       <workItem from="1674436919767" duration="16234000" />
       <workItem from="1674475023287" duration="25000" />
       <workItem from="1674542032293" duration="1404000" />
-      <workItem from="1674543462397" duration="1742000" />
+      <workItem from="1674543462397" duration="5310000" />
     </task>
     <servers />
   </component>

@@ -25,4 +25,58 @@
 
 ### 하위 클래스를 상위 클래스와 동일시한다
 `CharDisplay`의 인스턴스와 `StringDisplay`의 인스턴스 모두 `AbstractDisplay`형 변수에 대입해서 `display` 메소드를 호출<br>
-`리스코프 치환 원칙` 하위 클래스는 기본 클래스에 맹목적으로 대체되어야 한다. 
+`리스코프 치환 원칙` 하위 클래스는 기본 클래스에 맹목적으로 대체되어야 한다.
+
+---
+### Java 8 Default method
+일반적인 인터페이스 메소드 구현
+```java
+public interface 클래스 {
+    public void doSomething();
+}
+```
+
+디폴트 메소드 (상속 시 디폴트 메소드 구현도 함께 상속)
+```java
+public interface 클래스 {
+    public default void doSomething() {
+        System.out.println("...");
+    }
+}
+```
+
+다중 상속
+```java
+public class Main {
+
+    interface A {
+        default void doSomething(int a) {
+            System.out.println("interface A " + a);
+        }
+    }
+
+    interface B {
+        default void doSomething(int b) {
+            System.out.println("interface B " + b);
+        }
+    }
+
+    static class Alphabet implements A, B  {
+        @Override
+        public void doSomething(int c) {
+            A.super.doSomething(c);
+            B.super.doSomething(c);
+        }
+    }
+
+    public static void main(String[] args) {
+        Alphabet alphabet = new Alphabet();
+        alphabet.doSomething(3);
+    }
+}
+
+```
+<blockquote>
+interface A 3<br>
+interface B 3
+</blockquote>

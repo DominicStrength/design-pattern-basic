@@ -17,3 +17,48 @@
 그러나, 어느 하위 클래스에서 어떻게 구현하더라도 처리의 큰 흐름은 상위 클래스에서 구성한 대로 됩니다.
 
 <blockquote><b>상위 클래스</b>에서 처리의 뼈대를 결정하고 <b>하위 클래스</b>에서 그 구체적 내용을 결정하는 디자인 패턴 <b>Template Method 패턴</b> 이라고 한다.</blockquote>
+
+---
+### 로직을 공통화할 수 있다
+`비슷한 기능을 가진` A라는 클래스를 A1, A2, A3, ... A(n) 개 만들었다고 가정하였을 때, `A1에서 문제가 발생`하면 A1뿐만 아니라 `나머지 클래스들도 문제를 해결`해줘야하는 상황이 발생<br>
+하지만, `Template Method 패턴`을 적용한 공통된 기능을 수행하는 클래스를 만들어 놓으면 `공통 클래스를 수정`함으로써 나머지 클래스들의 수정에 대한 `비용이 줄어`들게 된다.<br>
+
+### 하위 클래스를 상위 클래스와 동일시한다
+`CharDisplay`의 인스턴스와 `StringDisplay`의 인스턴스 모두 `AbstractDisplay`형 변수에 대입해서 `display` 메소드를 호출<br>
+`리스코프 치환 원칙` 하위 클래스는 기본 클래스에 맹목적으로 대체되어야 한다.
+
+---
+### Java 8 Default method
+일반적인 인터페이스 메소드 구현
+```java
+public interface 클래스 {
+    public void doSomething();
+}
+```
+
+디폴트 메소드 (상속 시 디폴트 메소드 구현도 함께 상속)
+```java
+public interface 클래스 {
+    public default void doSomething() {
+        System.out.println("...");
+    }
+}
+```
+
+다중 상속
+```java
+public interface A {
+    public default void doSomething() {
+        System.out.println("...");
+    }
+}
+public interface B {
+    public default void doSomething() {
+        System.out.println("...");
+    }
+}
+
+public class Main implements A, B {
+}
+```
+<blockquote>Error:(33, 16) java: class Main inherits unrelated defaults for doSomething(int) from types A and B</blockquote>
